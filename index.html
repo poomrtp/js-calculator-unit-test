@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        calculator
+    </title>
+</head>
+
+<body>
+    <input type="number" id="a" value="" size="10"> <br>
+    <input type="radio" name="operator" id="operator" value="+" checked="check">
+    <label for="operator">+</label><br>
+    <input type="radio" name="operator" id="operator" value="-">
+    <label for="operator">-</label><br>
+    <input type="radio" name="operator" id="operator" value="*">
+    <label for="operator">*</label><br>
+    <input type="radio" name="operator" id="operator" value="/">
+    <label for="operator">/</label><br>
+    <br>
+    <input type="number" id="b" value=""> <br>
+    <button id="clear" value="=" onclick="clearDisplay()">clear</button>
+    <button id="calc" value="=" onclick="doCalculate()">calculate</button><br>
+    <textarea id="result" disabled></textarea>
+    <script src=calculate.js></script>
+</body>
+
+</html>
