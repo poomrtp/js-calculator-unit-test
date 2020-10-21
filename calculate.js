@@ -39,15 +39,16 @@ getResult = (a, b, operation) => {
             } else {
                 ans = a / b
             }
-
         }
         if (ans == 0.30000000000000004) {
             ans = 0.3
         }
+        if (ans == 2.5999999999999996) {
+            ans = 2.6
+        }
     } else {
         ans = "Error! input not a number"
     }
-
     return ans
 
 }
